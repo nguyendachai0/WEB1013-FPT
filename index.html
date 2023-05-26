@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phan Thành Tài high school</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/6551975/1820/1820/m1/fpnw/wm1/s-.jpg?1560773548&s=80062153fd120929c8d1f43cfc9694a1">
+    <link rel="stylesheet" href="css/general..css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="https://kit.fontawesome.com/816292581e.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@openai/chat-dynamic@0.1.1/dist/chat.js"></script>
+
+    <style>
+        nav a {
+            color: #A52A2A;
+            opacity: 1;
+        }
+
+        .suggest {
+            display: block;
+            margin-left: 30%;
+            box-sizing: border-box;
+            border: 3px solid #DACBB4;
+            max-width: 500px;
+            padding: 10px;
+        }
+
+        #Email,
+        #password {
+            margin: 0;
+        }
+
+        .calendar {
+            vertical-align: top;
+            height: 500px;
+
+        }
+
+        .calendar>iframe {
+            width: 100%;
+            height: 100%;
+        }
+
+        .map-calendar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v16.0"
+        nonce="g4u35Wmz"></script>
+    <div class="container">
+        <header>
+            <a href="Sitemap.html">
+                Sitemap
+            </a>
+
+            <span style="color:white;">
+                |
+            </span>
+
+            <a href="form.html">
+                Log in
+            </a>
+            <div class="search">
+                <input type="text" name="search" placeholder="Search">
+                <button type="submit">
+                    <i class="fa fa-magnifying-glass">
+
+                    </i>
+                </button>
+            </div>
+            </form>
+
+            <div class="banner">
+                <img src="../image/unnamed2.png" alt="linh vat" width="200px" ;>
+                <h2>TRƯỜNG THPT PHAN THÀNH TÀI</h2>
+
+
+            </div>
+        </header>
+
+
+        <nav>
+            <ul class="menu">
+
+                <li><a href="#"><i class="fa fa-book" aria-hidden="true"></i>Giới thiệu chung<i
+                            class="fa-solid fa-sort-down"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="bandokhuonvientruong.html" target="page">Khuôn viên trường</a></li>
+                        <li><a href="tintuc.html" target="page">Tin tức</a></li>
+                    </ul>
+                </li>
+                <li><a href="HocPhi.html" target="page"><i class="fa fa-credit-card" aria-hidden="true"></i>Học phí<i
+                            class="fa-solid fa-sort-down"></i></a>
+
+                </li>
+                <li><a href="HocSInhTieuBieu.html" target="page"><i class="fa fa-male" aria-hidden="true"></i>Học sinh
+                        tiêu biểu<i class="fa-solid fa-sort-down"></i>
+                    </a>
+
+                </li>
+
+                <li><a href="./BaoLuu.html" target="page"><i class="fa fa-archive" aria-hidden="false"></i>Bảo lưu<i
+                            class="fa-solid fa-sort-down"></i></a>
+                </li>
+                <li><a href="#"><button class="alert" onclick="myalert()"><i class="fa fa-phone"
+                                aria-hidden="true"></i>DVSV<i class="fa-solid fa-sort-down"></i></button></a>
+                    <script>
+                        function myalert() {
+                            alert("You must sign in to use this function");
+                        }
+
+                    </script>
+                </li>
+            </ul>
+        </nav>
+        <section>
+            <aside>
+                <ul>
+                    <li><a href="https://hssv.ulis.vnu.edu.vn/mang-luoi-cuu-hoc-sinh-sinh-vien-ket-noi-chia-se-dong-hanh-cung-su-phat-trien-cua-truong-dai-hoc-ngoai-ngu/"
+                            target="_blank">Cựu học sinh</a></li>
+                    <li><a href="https://luatduonggia.vn/bao-cao-thanh-tich-tap-the-de-nghi-khen-thuong-doan-thanh-nien/"
+                            target="_blank">Thành tích</a></li>
+                    <li><a href="http://due.udn.vn/vi-vn/can-bo-giang-vien" target="_blank">Cán bộ giảng viên</a></li>
+
+                    <li><a href="https://tailieuhoctap.edu.vn/" target="_blank">Tài liệu học tập</a></li>
+
+
+                    <li><a href="hát về trường phan thành tài" target="_blank">Nhạc</a></li>
+                    <li><a href="email.html" target="_blank">Email</a></li>
+                </ul>
+            </aside>
+
+            <iframe name="page" src="../html/Slider.html" scrolling="no" frameborder="0">
+
+
+
+            </iframe>
+
+
+            <br>
+
+        </section>
+
+
+        <footer>
+            <div class="map-calendar">
+                <div class="contact">
+                    <h2>Liên hệ & địa chỉ</h2>
+                    <br>
+
+                    <ul>
+                        <li>Phan Thành Tài high school (418 Phạm Hùng Đà Nẵng)</li>
+                        <li><a href="#">+ 84 93 544 63 88</a></li>
+                        <li>Thời gian mở cửa: 5h00 - 23h00</li>
+                        <a href="#"> <img
+                                src="https://cdn.freebiesupply.com/logos/large/2x/zalo-1-logo-png-transparent.png"
+                                alt="zalo" style="width:30px;height:30px;"></a>
+                        <a href="#"> <img src="https://th.bing.com/th/id/OIP.uQlQc1ej3xTRMpywzGuFvAHaHw?pid=ImgDet&rs=1"
+                                alt="twitter" style="width:30px;height:30px"></img></a>
+                        <a href="#"> <img src="https://th.bing.com/th/id/R.3214d2d9bd20498edcb820fa4b682aab?rik=y7NSVSaKPpJCgA&riu=ht
+                tp%3a%2f%2fwww.icons101.com%2ficon_png%2fsize_256%2fid_83813%2ffacebookroundribbon.png&ehk=9rZqfZtdTDcgqLns
+                0tdt1vpgxxWyyBI%2bsJ7iewbX7LE%3d&risl=&pid=ImgRaw&r=0" alt="facebook"
+                                style="width:30px;height:30px"></img></a>
+                        <a href="#"> <img src="https://th.bing.com/th/id/R.c317346431f2edd8706a416ac89500b1?rik=h4pNF2aXqO%2bKyg&
+                    riu=http%3a%2f%2f1.bp.blogspot.com%2f-ZeT1a1yOG6U%2fT_xW4MzTSTI%2fAAAAAAAAADo%2fOR7TbI-gLo0%2fs1600%2f
+                    yahoo_icon.png&ehk=bi4lI4fYOTtyWQBgpR%2fp3aGzrvPman1Kmk3cP2JbLGk%3d&risl=&pid=ImgRaw&r=0"
+                                alt="yahoo!" style="width:30px;height:30px"></img></a>
+                    </ul>
+                </div>
+
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.4654004507024!2d108.19358971403118!3d15.
+        98927054582485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31421a4dd6f199cf%3A0x63ffc4892905df2b!2sPhan%20Thanh%
+        20Tai%20Secondary%20School!5e0!3m2!1sen!2s!4v1675452526370!5m2!1sen!2s" width="400" height="300"
+                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-
+        when-downgrade"></iframe>
+                </div>
+
+
+                <div class="calendar">
+                    <iframe name="calendar" src="../html/calendar.html" scrolling="no" frameborder="0"></iframe>
+                </div>
+            </div>
+
+
+
+
+
+
+        </footer>
+
+
+        <div class="like-comments">
+            <div class="fb-like" data-href="http://127.0.0.1:5500/Assigment/html/Host2.html" data-width=""
+                data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
+            <hr>
+            <div class="fb-comments" data-href="http://127.0.0.1:5500/Assigment/html/Host2.html" data-width=""
+                data-numposts="5"></div>
+        </div>
+
+
+        <script src="https://uhchat.net/code.php?f=0f1760"></script>
+
+    </div>
+
+</body>
+
+</html>
